@@ -1,17 +1,12 @@
 class Shoe 
   attr_accessor :brand, :color, :material , :size , :condition
  
-  
-  def intialize(brand)
-    @brand = brand
+  def initialize(brand) 
+    @brand = brand 
   end 
   
-  def new_shoe 
-    puts "Shoe is in new condition"
+  def cobble 
+    puts "Your shoe is as good as new!"
+    @condition = "new"
   end 
-
-  def shoe_repair 
-    puts "Shoe has been repaired"
-  end 
-  
 end 
